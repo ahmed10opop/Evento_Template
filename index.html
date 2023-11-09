@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evento</title>
+        <!-- Render All Elements Normally -->
+        <link rel="stylesheet" href="CSS/normalize.css">
+        <!-- Font Awesome 6 Library -->
+        <link rel="stylesheet" href="CSS/all.min.css">
+        <!-- <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" /> -->
+        <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">E<span>vento</span></a>
+        <nav>
+            <i class="fa-solid fa-list navIcon"></i>
+            <ul class="nav-ul">
+                <li><a href="#home" class="font-size">Home</a></li>
+                <li><a href="#service" class="font-size">Service</a></li>
+                <li><a href="#about" class="font-size">About</a></li>
+                <li><a href="#gallery" class="font-size">Gallery</a></li>
+                <li><a href="#price" class="font-size">Price</a></li>
+                <li><a href="#review" class="font-size">Review</a></li>
+                <li><a href="#contact" class="font-size">Contact</a></li>
+            </ul>
+            <img src="img/sun.png" alt="moon_icon" id="icon">
+        </nav>
+    </header>
+    <div class="color-switcher">
+        <div class="switcher-btn">
+            <i class="fa-solid fa-gear"></i>
+        </div>
+        <h3 class="select-color">select color</h3>
+        <div class="theme-btns-container">
+            <span class="theme-btns" data-color="#8e44ad" style="background-color:#8e44ad;"></span>
+            <span class="theme-btns" data-color="#f39c12" style="background-color:#f39c12;"></span>
+            <span class="theme-btns" data-color="#2980b9" style="background-color:#2980b9;"></span>
+            <span class="theme-btns" data-color="#27ae60" style="background-color:#27ae60;"></span>
+            <span class="theme-btns" data-color="#ea2027" style="background-color:#ea2027;"></span>
+            <span class="theme-btns" data-color="#e84393" style="background-color:#e84393;"></span>
+            <span class="theme-btns" data-color="#ff4757" style="background-color:#ff4757;"></span>
+            <span class="theme-btns" data-color="#ffc312" style="background-color:#ffc312;"></span>
+            <span class="theme-btns" data-color="#17c0eb" style="background-color:#17c0eb;"></span>
+        </div>
+    </div>
+    <section id="home" class="home">
+        <div class="content">
+            <h3>it's time to celebrate! the best <span> event organizers </span></h3>
+            <a>Contact Us</a>
+        </div>
+
+        <!-- Start Swiper -->
+        <!-- <div class="swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="img/gallery_4.avif" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/gallery_5.avif" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/gallery_6.avif" alt="">
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div> -->
+        <!-- End Swiper -->
+
+            <div class="slider">
+                <div class="slider-container">
+                    <div id="slide-number" class="slide-number"></div>
+                    <img src="img/home_1.jpg" alt="">
+                    <img src="Img/home_2.jpg" alt="">
+                    <img src="Img/home_3.jpg" alt="">
+                    <img src="Img/gallery_1.jpg" alt="">
+                    <img src="Img/gallery_2.jpg" alt="">
+                </div>
+                <div class="slider-controls">
+                    <span id="prev" class="prev">Previous</span>
+                    <span id="indicators" class="indicators"></span>
+                    <span id="next" class="next">Next</span>
+                </div>
+            </div>
+    </section>
+    <section id="service" class="service">
+        <h2 class="heading">Ser<span>vices</span></h2>
+        <div class="content">
+            <div class="box">
+                <i class="fa-solid fa-location-dot"></i>
+                <div class="text">
+                    <h3>Venue Selection</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit Ipsam.</p>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fa-solid fa-envelope"></i>
+                <div class="text">
+                    <h3>Invitation  Card</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit Ipsam.</p>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fa-solid fa-music"></i>
+                <div class="text">
+                    <h3>Entertainment</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit Ipsam.</p>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fa-solid fa-utensils"></i>
+                <div class="text">
+                    <h3>Food And Drinks</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit Ipsam.</p>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fa-solid fa-photo-film"></i>
+                <div class="text">
+                    <h3>Photos And Videos</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit Ipsam.</p>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fa-solid fa-cake-candles"></i>
+                <div class="text">
+                    <h3>Custom Food</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit Ipsam.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="about" class="about">
+        <h2 class="heading">About<span>Us</span></h2>
+        <div class="content">
+            <div class="img">
+                <img src="img/about.png" alt="about">
+            </div>
+            <div class="text">
+                <h3>celebration For You</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore, quibusdam ipsa! Facilis officiis ullam similique deleniti et exercitationem architecto. Iusto totam ipsa eligendi aperiam asperiores, molestiae corporis deserunt sit praesentium?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati nemo alias blanditiis asperiores, perspiciatis ut repudiandae cumque sapiente mollitia praesentium minus laudantium aspernatur possimus optio laboriosam dolore, provident fuga nulla.</p>
+                <a href="#">Contact Us</a>
+            </div>
+        </div>
+    </section>
+    <section id="gallery" class="gallery">
+        <h2 class="heading">Our<span>Gallery</span></h2>
+        <div class="content">
+            <div class="img">
+                <img src="img/gallery_1.jpg" alt="about">
+            </div>
+            <div class="img">
+                <img src="img/gallery_2.jpg" alt="about">
+            </div>
+            <div class="img">
+                <img src="img/gallery_3.avif" alt="about">
+            </div>
+            <div class="img">
+                <img src="img/gallery_4.avif" alt="about">
+            </div>
+            <div class="img">
+                <img src="img/gallery_5.avif" alt="about">
+            </div>
+            <div class="img">
+                <img src="img/gallery_6.avif" alt="about">
+            </div>
+            <div class="img">
+                <img src="img/gallery_7.avif" alt="about">
+            </div>
+            <div class="img">
+                <img src="img/gallery_8.avif" alt="about">
+            </div>
+        </div>
+    </section>
+
+    <section id="price" class="price">
+        <h2 class="heading">Our<span>Price</span></h2>
+        <div class="box-container">
+            <div class="box">
+                <h3>For Birthdays</h3>
+                <div>$250.99</div>
+                <ul>
+                    <li><i class="fa-solid fa-check"></i>Full Services</li>
+                    <li><i class="fa-solid fa-check"></i>Decorations</li>
+                    <li><i class="fa-solid fa-check"></i> Music And Photos</li>
+                    <li><i class="fa-solid fa-check"></i> Food And Drinks</li>
+                    <li><i class="fa-solid fa-check"></i> Invitation Card</li>
+                </ul>
+                <a href="#">Check Out</a>
+            </div>
+            <div class="box">
+                <h3>For Weddings</h3>
+                <div>$450.99</div>
+                <ul>
+                    <li><i class="fa-solid fa-check"></i>Full Services</li>
+                    <li><i class="fa-solid fa-check"></i>Decorations</li>
+                    <li><i class="fa-solid fa-check"></i> Music And Photos</li>
+                    <li><i class="fa-solid fa-check"></i> Food And Drinks</li>
+                    <li><i class="fa-solid fa-check"></i> Invitation Card</li>
+                </ul>
+                <a href="#">Check Out</a>
+            </div>
+            <div class="box">
+                <h3>For Concerts</h3>
+                <div>$650.99</div>
+                <ul>
+                    <li><i class="fa-solid fa-check"></i>Full Services</li>
+                    <li><i class="fa-solid fa-check"></i>Decorations</li>
+                    <li><i class="fa-solid fa-check"></i> Music And Photos</li>
+                    <li><i class="fa-solid fa-check"></i> Food And Drinks</li>
+                    <li><i class="fa-solid fa-check"></i> Invitation Card</li>
+                </ul>
+                <a href="#">Check Out</a>
+            </div>
+            <div class="box">
+                <h3>For Others</h3>
+                <div>$850.99</div>
+                <ul>
+                    <li><i class="fa-solid fa-check"></i>Full Services</li>
+                    <li><i class="fa-solid fa-check"></i>Decorations</li>
+                    <li><i class="fa-solid fa-check"></i> Music And Photos</li>
+                    <li><i class="fa-solid fa-check"></i> Food And Drinks</li>
+                    <li><i class="fa-solid fa-check"></i> Invitation Card</li>
+                </ul>
+                <a href="#">Check Out</a>
+            </div>
+        </div>
+    </section>
+    <section id="review" class="review">
+        <h2 class="heading">Client`s<span>Review</span></h2>
+        <div class="content">
+            <div class="client">
+                <div class="profile">
+                    <img src="img/client.png" alt="client">
+                    <div>
+                        <h3>John Deo</h3>
+                        <p>Happy Client</p>
+                    </div>
+                </div>
+                <i class="fa-solid fa-quote-right"></i>
+            </div>
+            <p class="disc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure aspernatur doloremque, sunt quae, consequatur nesciunt laborum obcaecati, minus expedita sapiente dolores odio ut nisi excepturi? Nobis neque modi voluptate dolorem?</p>
+        </div>
+    </section>
+    <section id="contact" class="contact">
+        <h2 class="heading">Contact<span>Us</span></h2>
+        <form action="">
+            <div class="inputBox">
+                <input type="text" placeholder="name">
+                <input type="email" placeholder="email">
+            </div>
+            <div class="inputBox">
+                <input type="text" placeholder="number">
+                <input type="text" placeholder="subject">
+            </div>
+            <textarea name="" placeholder="your message" id="" cols="30" rows="10"></textarea>
+            <input type="submit" value="send message" class="btn">
+        </form>
+    </section>
+    <footer>
+        <div class="box-container">
+            <div class="box">
+            <h3>branches</h3>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Cairo </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Alexandria </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Helwan </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Marsa Matrooh </a>
+            </div>
+            <div class="box">
+            <h3>quick links</h3>
+            <a href="#home"> <i class="fas fa-arrow-right"></i> Home </a>
+            <a href="#service"> <i class="fas fa-arrow-right"></i> Service </a>
+            <a href="#about"> <i class="fas fa-arrow-right"></i> About </a>
+            <a href="#about"> <i class="fas fa-arrow-right"></i> Gallery </a>
+            <a href="#price"> <i class="fas fa-arrow-right"></i> Pricing </a>
+            <a href="#review"> <i class="fas fa-arrow-right"></i> Review </a>
+            <a href="#contact"> <i class="fas fa-arrow-right"></i> Contact </a>
+            </div>
+            <div class="box">
+            <h3>contact info</h3>
+            <a href="#"> <i class="fas fa-phone"></i> +123-456-7890 </a>
+            <a href="#"> <i class="fas fa-phone"></i> +111-222-3333 </a>
+            <a href="#" class="no-capitalizing"> <i class="fas fa-envelope"></i> shaikhanas@gmail.com </a>
+            <a href="#" class="no-capitalizing"> <i class="fas fa-envelope"></i> anasshaikh@gmail.com </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> misr el gedida, cairo - 400104 </a>
+            </div>
+            <div class="box">
+            <h3>follow us</h3>
+            <div class="links">
+                <a href="#"> <i class="fab fa-facebook-f"></i></a>
+                <a href="#"> <i class="fab fa-twitter"></i></a>
+                <a href="#"> <i class="fab fa-instagram"></i></a>
+                <a href="#"> <i class="fab fa-linkedin"></i></a>
+            </div>
+            </div>
+        </div>
+        <div class="credit"> Created By <span>AhmedHassan</span> | All Rights Reserved </div>
+    </footer>
+    <!-- <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script> -->
+    <script src="JS/main.js"></script>
+</body>
+</html>
